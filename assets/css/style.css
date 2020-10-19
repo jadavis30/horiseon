@@ -19,6 +19,7 @@ header {
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    
 }
 
 /*Header specific to greyed out SEO in company name*/
@@ -27,7 +28,7 @@ header {
 }
 
 /*Header container style*/
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -36,13 +37,13 @@ header {
 }
 
 /*Nav style*/
-.header div ul {
+.header nav ul {
     list-style-type: none;
     display: inline;
 }
 
 /*Nav list item style*/
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
     float: right;
